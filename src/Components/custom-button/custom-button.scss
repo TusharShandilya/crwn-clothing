@@ -30,9 +30,20 @@
       background-color: #357ae8;
       border: none;
     }
-  }
+  } 
 
-    &:inverted {
+    &.paytm {
+      background-color: #005dff;
+      color: white;
+      opacity: 0.85;      
+      
+      &:hover {
+        opacity: 1;
+        border: none;
+      }
+    }
+
+    &.inverted {
       background-color: white;
       color: black;
       border: 1px solid black;
